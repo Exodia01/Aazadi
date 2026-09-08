@@ -1,0 +1,110 @@
+{
+  "curatedAt": "2026-09-05",
+  "modelCount": 10,
+  "perModel": [
+    {
+      "provider": "api-airforce",
+      "modelId": "x-ai/grok-3",
+      "displayName": "Grok-3 (Free)",
+      "monthlyTokens": 24000000,
+      "creditTokens": 0,
+      "freeType": "recurring-daily",
+      "poolKey": "api-airforce",
+      "tos": "caution"
+    },
+    {
+      "provider": "github-models",
+      "modelId": "meta/llama-4-scout-17b-16e-instruct",
+      "displayName": "Llama 4 Scout (Free)",
+      "monthlyTokens": 18000000,
+      "creditTokens": 0,
+      "freeType": "recurring-daily",
+      "poolKey": "github-models",
+      "tos": "caution"
+    },
+    {
+      "provider": "groq",
+      "modelId": "llama-3.3-70b-versatile",
+      "displayName": "Llama 3.3 70B (Free)",
+      "monthlyTokens": 15000000,
+      "creditTokens": 0,
+      "freeType": "recurring-daily",
+      "poolKey": "groq",
+      "tos": "caution"
+    },
+    {
+      "provider": "google",
+      "modelId": "google/gemini-2.0-flash",
+      "displayName": "Gemini 2.0 Flash (Free)",
+      "monthlyTokens": 10000000,
+      "creditTokens": 0,
+      "freeType": "recurring-monthly",
+      "poolKey": "google",
+      "tos": "ok"
+    },
+    {
+      "provider": "mistral",
+      "modelId": "mistral/mistral-small-latest",
+      "displayName": "Mistral Small (Free)",
+      "monthlyTokens": 5000000,
+      "creditTokens": 0,
+      "freeType": "recurring-monthly",
+      "poolKey": "mistral",
+      "tos": "ok"
+    },
+    {
+      "provider": "together",
+      "modelId": "together/meta-llama-3.1-8b-instruct",
+      "displayName": "Llama 3.1 8B (Free)",
+      "monthlyTokens": 5000000,
+      "creditTokens": 0,
+      "freeType": "recurring-monthly",
+      "poolKey": "together",
+      "tos": "caution"
+    },
+    {
+      "provider": "bazaarlink",
+      "modelId": "auto:free",
+      "displayName": "Auto Free (Zero Cost)",
+      "monthlyTokens": 3600000,
+      "creditTokens": 0,
+      "freeType": "recurring-daily",
+      "poolKey": "bazaarlink",
+      "tos": "caution"
+    },
+    {
+      "provider": "openrouter",
+      "modelId": "openrouter:auto",
+      "displayName": "OpenRouter Auto (Free)",
+      "monthlyTokens": 1200000,
+      "creditTokens": 0,
+      "freeType": "recurring-monthly",
+      "poolKey": "openrouter",
+      "tos": "ok"
+    },
+    {
+      "provider": "perplexity",
+      "modelId": "perplexity/sonar-free",
+      "displayName": "Perplexity Sonar (Free)",
+      "monthlyTokens": 400000,
+      "creditTokens": 0,
+      "freeType": "recurring-monthly",
+      "poolKey": "perplexity",
+      "tos": "caution"
+    },
+    {
+      "provider": "agentrouter",
+      "modelId": "claude-opus-4-6",
+      "displayName": "Claude 4.6 Opus",
+      "monthlyTokens": 0,
+      "creditTokens": 200000000,
+      "freeType": "one-time-initial",
+      "poolKey": "agentrouter",
+      "tos": "caution"
+    }
+  ],
+  "totals": {
+    "steadyRecurringTokens": 82200000,
+    "firstMonthRealisticTokens": 282200000
+  }
+}

@@ -1,0 +1,30 @@
+# Bun / Node modules
+node_modules/
+
+# Logs
+*.log
+*.pid
+
+# Runtime
+.bun/
+
+# Environment variables
+.env
+
+# Bun cache
+.bun/cache
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuild
+
+# OpenCode integration
+**/packages/core/src/free-model-catalog.ts.sync
+**/catalog/free-models-catalog.json.orig
+
+# PowerShell/Bash state
+*.state
+
+# Hidden
+.DS_Store
+Thumbs.db

@@ -1,0 +1,30 @@
+{
+  "name": "aazadi",
+  "version": "0.1.0",
+  "description": "Free models dashboard for OpenCode - token balances, rollover policies, daily reset countdown, and OpenRouter boost tracking.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exodia01/Aazadi.git"
+  },
+  "homepage": "https://github.com/Exodia01/Aazadi#readme",
+  "scripts": {
+    "dev": "bun run --bun src/app.ts",
+    "start": "bun run --bun src/app.ts",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "sync": "bun run src/sync/refresh-free-models.ts --run",
+    "sync:monthly": "bun run src/sync/refresh-free-models.ts --run",
+    "sync:push": "git add catalog/free-models-catalog.json && git commit -m 'chore: update free models catalog [auto]' && git push origin main",
+    "sync:pull": "git pull origin main",
+    "dashboard": "bun run --bun src/app.ts"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.29",
+    "@types/bun": "latest",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
